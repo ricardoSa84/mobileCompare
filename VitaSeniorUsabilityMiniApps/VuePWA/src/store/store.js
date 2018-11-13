@@ -7,7 +7,7 @@ Vue.use(Vuex)
 
 const state = {
   settings: {
-    baseUrl: 'https://vitasenior-test.eu-gb.mybluemix.net',
+    baseUrl: 'https://vitasenior.eu-gb.mybluemix.net',
     config: {
       headers: {
         'Accept-Version': '1.0.0',
