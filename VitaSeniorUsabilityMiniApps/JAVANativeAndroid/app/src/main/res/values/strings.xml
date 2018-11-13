@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">AndroidNativeMiniApp</string>
+    <string name="title_activity_vitabox_info">VitaboxInfo</string>
+    <string name="title_patients">Patients</string>
+    <string name="title_boards">Boards</string>
+    <string name="title_users">Users</string>
+</resources>

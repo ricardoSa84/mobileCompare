@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activitys.BoxListAndResgistration">
+
+
+    <TextView
+        android:id="@+id/recyclerLabel"
+        android:layout_alignParentTop="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Registered Vitaboxes"
+        android:layout_marginTop="18dp"
+        android:layout_marginBottom="18dp"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:textColor="#ffffff"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/boxListRecycler"
+        android:layout_below="@id/recyclerLabel"
+        android:layout_above="@+id/registerBoxBtn"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <Button
+        android:id="@+id/registerBoxBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:textColor="#FFFFFF"
+        android:background="@color/colorPrimaryDark"
+        android:text="Register Box"/>
+
+</RelativeLayout>
